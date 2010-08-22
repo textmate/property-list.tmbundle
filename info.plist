@@ -74,6 +74,15 @@
 		<string>F8D1160E-C397-45DD-86A8-BC1CC0C8676A</string>
 		<string>88C56C14-B8C2-409E-9E1E-55777FB354EE</string>
 	</array>
+	<key>require</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Avian</string>
+			<key>uuid</key>
+			<string>C5F9DCF7-13D1-446C-BCA4-BCAD44E573B8</string>
+		</dict>
+	</array>
 	<key>uuid</key>
 	<string>467A3CB0-6227-11D9-BFB1-000D93589AF6</string>
 </dict>

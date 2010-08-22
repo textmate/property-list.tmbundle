@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>if [[ -f "$TM_FILEPATH" ]] &amp;&amp; [ $(grep -ao "^......" "$TM_FILEPATH"|head -n1) == "bplist" ]
    then plutil -convert xml1 -o &gt;(cat) "$TM_FILEPATH"|pl
-   else pl
+   else "${TM_AVIAN_BUNDLE_SUPPORT}/pretty_plist"
 fi</string>
 	<key>input</key>
 	<string>document</string>
