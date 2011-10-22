@@ -14,6 +14,8 @@
 	<string>^\s*([a-zA-Z_-]+ = )?[{(](?!.*[)}][;,]?\s*$)</string>
 	<key>foldingStopMarker</key>
 	<string>^\s*(\}|\))</string>
+	<key>keyEquivalent</key>
+	<string>^~P</string>
 	<key>name</key>
 	<string>Property List (Old-Style)</string>
 	<key>patterns</key>
