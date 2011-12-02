@@ -10,8 +10,6 @@
 </string>
 	<key>contentMatch</key>
 	<string>\Abplist00</string>
-	<key>eventSpecifier</key>
-	<string>event.document.import.binary</string>
 	<key>hideFromUser</key>
 	<true/>
 	<key>input</key>
@@ -28,6 +26,8 @@
 	<string>replaceDocument</string>
 	<key>scope</key>
 	<string>-attr.rev-path.tmCommand</string>
+	<key>semanticClass</key>
+	<string>callback.document.binary-import</string>
 	<key>uuid</key>
 	<string>59612BC2-82E8-4B22-BDA4-F0913417DD07</string>
 	<key>version</key>
