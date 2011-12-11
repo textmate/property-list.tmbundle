@@ -10,10 +10,6 @@
 		<string>scriptTerminology</string>
 		<string>savedSearch</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>^\s*([a-zA-Z_-]+ = )?[{(](?!.*[)}][;,]?\s*$)</string>
-	<key>foldingStopMarker</key>
-	<string>^\s*(\}|\))</string>
 	<key>keyEquivalent</key>
 	<string>^~P</string>
 	<key>name</key>

@@ -6,18 +6,6 @@
 	<array/>
 	<key>firstLineMatch</key>
 	<string>\s*&lt;\?xml .*\n\s*&lt;!DOCTYPE\s*(?i:plist)\s</string>
-	<key>foldingStartMarker</key>
-	<string>(?x)
-(
-	^\s*
-	(
-		&lt;[^!?%/](?!.+?(/&gt;
-	  | &lt;/.+?&gt;))
-	  | &lt;[!%]--(?!.+?--%?&gt;)
-	)
-)</string>
-	<key>foldingStopMarker</key>
-	<string>(^\s*(&lt;/[^&gt;]+&gt;|/&gt;|--&gt;)\s*$)</string>
 	<key>name</key>
 	<string>Property List (XML)</string>
 	<key>patterns</key>
