@@ -11,7 +11,7 @@
 		<key>decreaseIndentPattern</key>
 		<string>^\s*(\}|\))</string>
 		<key>increaseIndentPattern</key>
-		<string>^\s*((["']?)[A-Za-z._-]+\2\s+=\s+)?[{(](?!.*[)}][;,]?\s*$)</string>
+		<string>^\s*(([a-zA-Z_-]+|"[^"]+"|'[^']+')\s+=\s+)?[{(](?!.*[)}][;,]?\s*$)</string>
 	</dict>
 	<key>uuid</key>
 	<string>0473E42E-A64E-4D3E-B20B-BA66E0145BC4</string>

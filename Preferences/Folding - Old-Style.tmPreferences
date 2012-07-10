@@ -9,7 +9,7 @@
 	<key>settings</key>
 	<dict>
 		<key>foldingStartMarker</key>
-		<string>^\s*([a-zA-Z_-]+ = )?[{(](?!.*[)}][;,]?\s*$)</string>
+		<string>^\s*(([a-zA-Z_-]+|"[^"]+"|'[^']+')\s+=\s+)?[{(](?!.*[)}][;,]?\s*$)</string>
 		<key>foldingStopMarker</key>
 		<string>^\s*(\}|\))</string>
 	</dict>
