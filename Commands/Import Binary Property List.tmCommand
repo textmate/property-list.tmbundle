@@ -6,6 +6,12 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/bin/bash
+echo '// !!! BINARY PROPERTY LIST WARNING !!!'
+echo '//'
+echo '// The pretty-printed property list below has been created'
+echo '// from a binary version on disk and should not be saved as'
+echo '// the ASCII format is a subset of the binary representation!'
+echo '//'
 "${TM_BUNDLE_SUPPORT}/bin/pretty_plist"
 </string>
 	<key>contentMatch</key>
