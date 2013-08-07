@@ -10,6 +10,8 @@
 		<string>scriptTerminology</string>
 		<string>savedSearch</string>
 	</array>
+	<key>firstLineMatch</key>
+	<string>\A// .*?\b(?i:property list)\b</string>
 	<key>keyEquivalent</key>
 	<string>^~P</string>
 	<key>name</key>
