@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>#!/bin/sh
+if ! /usr/bin/plutil -convert objc -o - -- -; then
+	. "$TM_SUPPORT_PATH/lib/bash_init.sh"
+	exit_show_tool_tip
+fi
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^H</string>
+	<key>name</key>
+	<string>Convert to Objective-C Source</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>scope</key>
+	<string>source.plist, text.xml.plist</string>
+	<key>uuid</key>
+	<string>9EE98508-0697-4220-8D0F-A7E393703FE5</string>
+</dict>
+</plist>

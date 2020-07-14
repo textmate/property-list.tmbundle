@@ -17,10 +17,10 @@
 	<dict>
 		<key>items</key>
 		<array>
-			<string>827E8A23-2C7A-4BDD-987F-A3B67B51F239</string>
-			<string>DA0A5096-5F16-11D9-B9C3-000D93589AF6</string>
-			<string>------------------------------------</string>
 			<string>6D5D4F38-1A58-4E33-A2C0-2F9D98B6C436</string>
+			<string>------------------------------------</string>
+			<string>DA0A5096-5F16-11D9-B9C3-000D93589AF6</string>
+			<string>E779BF1D-95FB-402C-9351-0060AAE47DDA</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -43,6 +43,20 @@
 				</array>
 				<key>name</key>
 				<string>XML Property List Elements</string>
+			</dict>
+			<key>E779BF1D-95FB-402C-9351-0060AAE47DDA</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>827E8A23-2C7A-4BDD-987F-A3B67B51F239</string>
+					<string>4DC1AEE6-224B-4459-AF08-512C86FDAE35</string>
+					<string>7BAA9234-7DE0-47FB-9B23-3246522E3786</string>
+					<string>9EE98508-0697-4220-8D0F-A7E393703FE5</string>
+					<string>596D33EB-DACF-4B92-97E7-501AF5A3BAED</string>
+					<string>1CE7E2B3-0A9B-4BA4-A5ED-91E62775C93E</string>
+				</array>
+				<key>name</key>
+				<string>Convert</string>
 			</dict>
 		</dict>
 	</dict>
